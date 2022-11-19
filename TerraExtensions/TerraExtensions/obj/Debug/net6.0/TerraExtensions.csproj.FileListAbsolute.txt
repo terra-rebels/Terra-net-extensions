@@ -1,0 +1,5 @@
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Debug\net6.0\TerraExtensions.csproj.AssemblyReference.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Debug\net6.0\TerraExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Debug\net6.0\TerraExtensions.AssemblyInfoInputs.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Debug\net6.0\TerraExtensions.AssemblyInfo.cs
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Debug\net6.0\TerraExtensions.csproj.CoreCompileInputs.cache

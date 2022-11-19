@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "zJ+mb8q1KSSQBXjqCJv2CtQdRQvb6EQy5N4+BdPGfSebKULUbuWPVnu2zIDQH7ZzZfhNOU+Uoy0iXAsV/2Xi0w==",
+  "success": true,
+  "projectFilePath": "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions\\TerraExtensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dande\\.nuget\\packages\\crypto.ripemd\\1.0.3\\crypto.ripemd.1.0.3.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\grpc.core.api\\2.44.0\\grpc.core.api.2.44.0.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\nano.bech32\\1.1.0\\nano.bech32.1.1.0.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\plugin.security\\1.0.2\\plugin.security.1.0.2.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\protobuf-net\\3.1.22\\protobuf-net.3.1.22.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\protobuf-net.core\\3.1.22\\protobuf-net.core.3.1.22.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\protobuf.grpc\\1.0.170\\protobuf.grpc.1.0.170.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\randomstringcreator\\2.0.0\\randomstringcreator.2.0.0.nupkg.sha512",
+    "C:\\Users\\dande\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,185 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TerraExtensions/1.0.0": {
+        "dependencies": {
+          "Crypto.RIPEMD": "1.0.3",
+          "Nano.Bech32": "1.1.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Plugin.Security": "1.0.2",
+          "Protobuf.Grpc": "1.0.170",
+          "RandomStringCreator": "2.0.0",
+          "protobuf-net": "3.1.22"
+        },
+        "runtime": {
+          "TerraExtensions.dll": {}
+        }
+      },
+      "Crypto.RIPEMD/1.0.3": {
+        "runtime": {
+          "lib/net5.0/Library.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.44.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.44.0.0"
+          }
+        }
+      },
+      "Nano.Bech32/1.1.0": {
+        "runtime": {
+          "lib/net6.0/Nano.Bech32.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Plugin.Security/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Security.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "protobuf-net/3.1.22": {
+        "dependencies": {
+          "protobuf-net.Core": "3.1.22"
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.22.19916"
+          }
+        }
+      },
+      "protobuf-net.Core/3.1.22": {
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.22.19916"
+          }
+        }
+      },
+      "Protobuf.Grpc/1.0.170": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.44.0",
+          "protobuf-net": "3.1.22"
+        },
+        "runtime": {
+          "lib/net5.0/protobuf-net.Grpc.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.170.9948"
+          }
+        }
+      },
+      "RandomStringCreator/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/RandomStringCreator.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "TerraExtensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crypto.RIPEMD/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WRmD/pmhGtDA8DPoB72ownit9PCZpDEOLpB+Odw8GNXZopQnmgch+RWfFIHfWFGrRV/RCR2yaR86Fk3fq6rnpw==",
+      "path": "crypto.ripemd/1.0.3",
+      "hashPath": "crypto.ripemd.1.0.3.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FBfPMvKwT8q98T8lWa5z6nBMLdH/Mmo5g4yyYYMvbXLWDzo4beqa7CUU5QH3PKvo2X6/b+UAZ2IymXlrYG3IXg==",
+      "path": "grpc.core.api/2.44.0",
+      "hashPath": "grpc.core.api.2.44.0.nupkg.sha512"
+    },
+    "Nano.Bech32/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YwVPZywwO3aXyjsyrDXBfGy4srD/gVc2r70sab6/L7nkjk6VgLWn3I+c44jlq8tXBtRpA3yHOKBWZ8F18eib6A==",
+      "path": "nano.bech32/1.1.0",
+      "hashPath": "nano.bech32.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Plugin.Security/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p62m+vTOy44gy/XMOSJy/EG1COtmtj8QehNQb+wS882GbkaGle0qotSBTR8tlt+iEsYMdH+DhL+OuhWdizh8jQ==",
+      "path": "plugin.security/1.0.2",
+      "hashPath": "plugin.security.1.0.2.nupkg.sha512"
+    },
+    "protobuf-net/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wf0E7Y4az3U/9lrmOo95efX4/SmiBYVhgevvVtOQs2y7LFxdhRIoRQVfz3URqS6XuQeyDx8noE65rqC+mpnE1w==",
+      "path": "protobuf-net/3.1.22",
+      "hashPath": "protobuf-net.3.1.22.nupkg.sha512"
+    },
+    "protobuf-net.Core/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-82iIFBuQW2K8kixHQ1Eo6qWfnztNYRGU6OGqGmq7c0r8T9X9y9j79SHQSeI/hK3gK6EvHbYMfeGhpRJzA/zv1Q==",
+      "path": "protobuf-net.core/3.1.22",
+      "hashPath": "protobuf-net.core.3.1.22.nupkg.sha512"
+    },
+    "Protobuf.Grpc/1.0.170": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gBvlr5QBR0KyjoIYN1eKtPibkUz0ATKdD6sSzQcXmOFDwcm41DQ5L3Eej/c6puVoZNsN7nBZLpNM5j6M6+JK3g==",
+      "path": "protobuf.grpc/1.0.170",
+      "hashPath": "protobuf.grpc.1.0.170.nupkg.sha512"
+    },
+    "RandomStringCreator/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGpyCGm7W27MlBXp+HNeslnOsNi80Z2isoCt/yY7aKoyjS2Vl6AQ6kq2UK6NgeVpEQZeXaOIEf2pNbiXeARYdg==",
+      "path": "randomstringcreator/2.0.0",
+      "hashPath": "randomstringcreator.2.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}

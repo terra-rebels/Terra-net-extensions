@@ -1,0 +1,432 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Crypto.RIPEMD/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Library.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Library.dll": {}
+        }
+      },
+      "Grpc.Core.Api/2.44.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Nano.Bech32/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Nano.Bech32.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Nano.Bech32.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.Security/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Security.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Security.dll": {}
+        }
+      },
+      "protobuf-net/3.1.22": {
+        "type": "package",
+        "dependencies": {
+          "protobuf-net.Core": "3.1.22"
+        },
+        "compile": {
+          "lib/net6.0/protobuf-net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "protobuf-net.Core/3.1.22": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Protobuf.Grpc/1.0.170": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.44.0",
+          "protobuf-net": "2.4.6"
+        },
+        "compile": {
+          "lib/net5.0/protobuf-net.Grpc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/protobuf-net.Grpc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RandomStringCreator/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RandomStringCreator.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RandomStringCreator.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Crypto.RIPEMD/1.0.3": {
+      "sha512": "WRmD/pmhGtDA8DPoB72ownit9PCZpDEOLpB+Odw8GNXZopQnmgch+RWfFIHfWFGrRV/RCR2yaR86Fk3fq6rnpw==",
+      "type": "package",
+      "path": "crypto.ripemd/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crypto.ripemd.1.0.3.nupkg.sha512",
+        "crypto.ripemd.nuspec",
+        "lib/net5.0/Library.dll"
+      ]
+    },
+    "Grpc.Core.Api/2.44.0": {
+      "sha512": "FBfPMvKwT8q98T8lWa5z6nBMLdH/Mmo5g4yyYYMvbXLWDzo4beqa7CUU5QH3PKvo2X6/b+UAZ2IymXlrYG3IXg==",
+      "type": "package",
+      "path": "grpc.core.api/2.44.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "grpc.core.api.2.44.0.nupkg.sha512",
+        "grpc.core.api.nuspec",
+        "lib/net45/Grpc.Core.Api.dll",
+        "lib/net45/Grpc.Core.Api.pdb",
+        "lib/net45/Grpc.Core.Api.xml",
+        "lib/netstandard1.5/Grpc.Core.Api.dll",
+        "lib/netstandard1.5/Grpc.Core.Api.pdb",
+        "lib/netstandard1.5/Grpc.Core.Api.xml",
+        "lib/netstandard2.0/Grpc.Core.Api.dll",
+        "lib/netstandard2.0/Grpc.Core.Api.pdb",
+        "lib/netstandard2.0/Grpc.Core.Api.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Nano.Bech32/1.1.0": {
+      "sha512": "YwVPZywwO3aXyjsyrDXBfGy4srD/gVc2r70sab6/L7nkjk6VgLWn3I+c44jlq8tXBtRpA3yHOKBWZ8F18eib6A==",
+      "type": "package",
+      "path": "nano.bech32/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "lib/net6.0/Nano.Bech32.dll",
+        "nano.bech32.1.1.0.nupkg.sha512",
+        "nano.bech32.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Plugin.Security/1.0.2": {
+      "sha512": "p62m+vTOy44gy/XMOSJy/EG1COtmtj8QehNQb+wS882GbkaGle0qotSBTR8tlt+iEsYMdH+DhL+OuhWdizh8jQ==",
+      "type": "package",
+      "path": "plugin.security/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/dnxcore50/Plugin.Security.dll",
+        "lib/dotnet5.4/Plugin.Security.dll",
+        "lib/net45/Plugin.Security.dll",
+        "lib/netstandard2.0/Plugin.Security.dll",
+        "plugin.security.1.0.2.nupkg.sha512",
+        "plugin.security.nuspec"
+      ]
+    },
+    "protobuf-net/3.1.22": {
+      "sha512": "wf0E7Y4az3U/9lrmOo95efX4/SmiBYVhgevvVtOQs2y7LFxdhRIoRQVfz3URqS6XuQeyDx8noE65rqC+mpnE1w==",
+      "type": "package",
+      "path": "protobuf-net/3.1.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.dll",
+        "lib/net462/protobuf-net.xml",
+        "lib/net6.0/protobuf-net.dll",
+        "lib/net6.0/protobuf-net.xml",
+        "lib/netcoreapp3.1/protobuf-net.dll",
+        "lib/netcoreapp3.1/protobuf-net.xml",
+        "lib/netstandard2.0/protobuf-net.dll",
+        "lib/netstandard2.0/protobuf-net.xml",
+        "lib/netstandard2.1/protobuf-net.dll",
+        "lib/netstandard2.1/protobuf-net.xml",
+        "protobuf-net.3.1.22.nupkg.sha512",
+        "protobuf-net.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "protobuf-net.Core/3.1.22": {
+      "sha512": "82iIFBuQW2K8kixHQ1Eo6qWfnztNYRGU6OGqGmq7c0r8T9X9y9j79SHQSeI/hK3gK6EvHbYMfeGhpRJzA/zv1Q==",
+      "type": "package",
+      "path": "protobuf-net.core/3.1.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.Core.dll",
+        "lib/net462/protobuf-net.Core.xml",
+        "lib/net6.0/protobuf-net.Core.dll",
+        "lib/net6.0/protobuf-net.Core.xml",
+        "lib/netcoreapp3.1/protobuf-net.Core.dll",
+        "lib/netcoreapp3.1/protobuf-net.Core.xml",
+        "lib/netstandard2.0/protobuf-net.Core.dll",
+        "lib/netstandard2.0/protobuf-net.Core.xml",
+        "lib/netstandard2.1/protobuf-net.Core.dll",
+        "lib/netstandard2.1/protobuf-net.Core.xml",
+        "protobuf-net.core.3.1.22.nupkg.sha512",
+        "protobuf-net.core.nuspec",
+        "protobuf-net.png"
+      ]
+    },
+    "Protobuf.Grpc/1.0.170": {
+      "sha512": "gBvlr5QBR0KyjoIYN1eKtPibkUz0ATKdD6sSzQcXmOFDwcm41DQ5L3Eej/c6puVoZNsN7nBZLpNM5j6M6+JK3g==",
+      "type": "package",
+      "path": "protobuf.grpc/1.0.170",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/protobuf-net.Grpc.dll",
+        "lib/net461/protobuf-net.Grpc.xml",
+        "lib/net5.0/protobuf-net.Grpc.dll",
+        "lib/net5.0/protobuf-net.Grpc.xml",
+        "lib/netstandard2.0/protobuf-net.Grpc.dll",
+        "lib/netstandard2.0/protobuf-net.Grpc.xml",
+        "lib/netstandard2.1/protobuf-net.Grpc.dll",
+        "lib/netstandard2.1/protobuf-net.Grpc.xml",
+        "protobuf-net.png",
+        "protobuf.grpc.1.0.170.nupkg.sha512",
+        "protobuf.grpc.nuspec"
+      ]
+    },
+    "RandomStringCreator/2.0.0": {
+      "sha512": "GGpyCGm7W27MlBXp+HNeslnOsNi80Z2isoCt/yY7aKoyjS2Vl6AQ6kq2UK6NgeVpEQZeXaOIEf2pNbiXeARYdg==",
+      "type": "package",
+      "path": "randomstringcreator/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/RandomStringCreator.dll",
+        "lib/net40/RandomStringCreator.pdb",
+        "lib/net451/RandomStringCreator.dll",
+        "lib/net451/RandomStringCreator.pdb",
+        "lib/netstandard2.0/RandomStringCreator.dll",
+        "lib/netstandard2.0/RandomStringCreator.pdb",
+        "randomstringcreator.2.0.0.nupkg.sha512",
+        "randomstringcreator.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Crypto.RIPEMD >= 1.0.3",
+      "Nano.Bech32 >= 1.1.0",
+      "Newtonsoft.Json >= 13.0.1",
+      "Plugin.Security >= 1.0.2",
+      "Protobuf.Grpc >= 1.0.170",
+      "RandomStringCreator >= 2.0.0",
+      "protobuf-net >= 3.1.22"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dande\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions\\TerraExtensions.csproj",
+      "projectName": "TerraExtensions",
+      "projectPath": "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions\\TerraExtensions.csproj",
+      "packagesPath": "C:\\Users\\dande\\.nuget\\packages\\",
+      "outputPath": "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dorsavi/_packaging/dorsaVi.Shared.Mobile/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Crypto.RIPEMD": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
+          "Nano.Bech32": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Plugin.Security": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "Protobuf.Grpc": {
+            "target": "Package",
+            "version": "[1.0.170, )"
+          },
+          "RandomStringCreator": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "protobuf-net": {
+            "target": "Package",
+            "version": "[3.1.22, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>TerraNetExtensions</id>
+		<version>1.0.1</version>
+		<title>TerraNetExtensions</title>
+        <icon>TerraRebels.png</icon>
+		<authors>terra-rebels</authors>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/terra-rebels/Terra-net-extensions</projectUrl>
+		<description>A repository of common C# extensions used amongst the terra ecosystem</description>
+		<releaseNotes>Package Update</releaseNotes>
+		<copyright>2022</copyright>
+		<tags></tags>
+	</metadata>
+
+	<files>
+		<file src="bin\Release\net6.0\TerraExtensions.dll" target="lib\net6.0\TerraExtensions.dll"/>
+		<file src="TerraRebels.png" target="TerraRebels.png"/>
+	</files>
+</package>

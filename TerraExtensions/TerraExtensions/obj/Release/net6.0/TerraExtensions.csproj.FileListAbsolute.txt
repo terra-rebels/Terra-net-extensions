@@ -1,0 +1,12 @@
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\bin\Release\net6.0\TerraExtensions.deps.json
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\bin\Release\net6.0\TerraExtensions.dll
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\bin\Release\net6.0\TerraExtensions.pdb
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.csproj.AssemblyReference.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.AssemblyInfoInputs.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.AssemblyInfo.cs
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.csproj.CoreCompileInputs.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.dll
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\refint\TerraExtensions.dll
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\TerraExtensions.pdb
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions\obj\Release\net6.0\ref\TerraExtensions.dll
