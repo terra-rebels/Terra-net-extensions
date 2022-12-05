@@ -1,0 +1,10 @@
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\bin\Release\netstandard2.0\TerraExtensions.Legacy.deps.json
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\bin\Release\netstandard2.0\TerraExtensions.Legacy.dll
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\bin\Release\netstandard2.0\TerraExtensions.Legacy.pdb
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.csproj.AssemblyReference.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.GeneratedMSBuildEditorConfig.editorconfig
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.AssemblyInfoInputs.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.AssemblyInfo.cs
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.csproj.CoreCompileInputs.cache
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.dll
+C:\TerraRebels\Terra-net-extensions\TerraExtensions\TerraExtensions.Legacy\obj\Release\netstandard2.0\TerraExtensions.Legacy.pdb

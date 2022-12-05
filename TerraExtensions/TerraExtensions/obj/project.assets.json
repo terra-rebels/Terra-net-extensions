@@ -125,6 +125,23 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "TerraExtensions.Legacy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Plugin.Security": "1.0.2",
+          "Protobuf.Grpc": "1.0.170",
+          "RandomStringCreator": "2.0.0",
+          "protobuf-net": "3.1.22"
+        },
+        "compile": {
+          "bin/placeholder/TerraExtensions.Legacy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TerraExtensions.Legacy.dll": {}
+        }
       }
     }
   },
@@ -318,6 +335,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TerraExtensions.Legacy/1.0.0": {
+      "type": "project",
+      "path": "../TerraExtensions.Legacy/TerraExtensions.Legacy.csproj",
+      "msbuildProject": "../TerraExtensions.Legacy/TerraExtensions.Legacy.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -328,13 +350,13 @@
       "Plugin.Security >= 1.0.2",
       "Protobuf.Grpc >= 1.0.170",
       "RandomStringCreator >= 2.0.0",
+      "TerraExtensions.Legacy >= 1.0.0",
       "protobuf-net >= 3.1.22"
     ]
   },
   "packageFolders": {
     "C:\\Users\\dande\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -346,14 +368,12 @@
       "outputPath": "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\dande\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -361,13 +381,16 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/dorsavi/_packaging/dorsaVi.Shared.Mobile/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions.Legacy\\TerraExtensions.Legacy.csproj": {
+              "projectPath": "C:\\TerraRebels\\Terra-net-extensions\\TerraExtensions\\TerraExtensions.Legacy\\TerraExtensions.Legacy.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -425,7 +448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
